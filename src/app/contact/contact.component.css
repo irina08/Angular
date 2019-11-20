@@ -1,0 +1,44 @@
+label {
+    display: block;
+}
+
+input, textarea {
+    display: block;
+    width: 50%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.err {
+    margin-top: -1.3em;
+    color: red;
+    padding: 0.5em;
+    display: inline-block;
+    margin-bottom: 1.3em;
+}
+
+.finalresults {
+    margin-top: 1.2em;
+    padding-left: 1em;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.btnsub {
+    background-color: #0352fc; 
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1.5em;
+}
+
+@media (max-width: 767px) {  
+   label, input, textarea, p {font-size: 0.9em;} 
+   section.finalresults p {font-size: 0.7em;}
+}
+
+@media (min-width: 768px) {
+    section.finalresults h5 {font-size: 1em;}
+}

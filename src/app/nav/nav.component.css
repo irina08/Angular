@@ -1,0 +1,38 @@
+nav {
+	width: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0352fc;
+} 
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	padding: 1.1em;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ nav ul li a:hover {
+	/*background-color: #130a7a;*/
+	background-color: #494a4a;
+}
+
+
+@media (min-width: 360px) {  
+    nav ul li a {font-size: 1em;}
+}
+
+/* (tablets, 768px and up) */
+@media (min-width: 768px) {  
+   nav ul li a {font-size: 1.3em;} 
+}

@@ -1,0 +1,15 @@
+footer {
+	background-color: #0352fc;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    text-align: center;
+}
+
+/* (tablets, 768px and up) */
+@media (min-width: 768px) {  
+   footer {font-size: 1.3em;} 
+}

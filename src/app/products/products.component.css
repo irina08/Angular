@@ -1,0 +1,15 @@
+div {
+	background-color: #DCDCDC;
+	margin-bottom: 0.5em;
+	padding: 1em;
+	border-radius: 5px;
+}
+
+@media (min-width: 320px) {  
+   div {font-size: 0.9em;} 
+}
+
+/* (tablets, 768px and up) */
+@media (min-width: 768px) {  
+   div {font-size: 1.3em;} 
+}
